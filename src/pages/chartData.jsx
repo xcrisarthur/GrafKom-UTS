@@ -1,11 +1,12 @@
 import Navbar from "../components/navbar";
-
+import CanvasVisualization from '../components/CanvasVisualization';
 
 const chartData = () => {
     return (
       <>
       <Navbar/>
-      <h1 className="py-44">Chart Data</h1>
+      <div className="mt-16"/>
+      <CanvasVisualization />
       </>
     );
 };
